@@ -1,0 +1,8 @@
+1. Are the node addresses different or the same?
+The two node addresses are the same.
+2. If so, how do you explain why they are the same or different? 
+Because a pointer to object is not destroyed, value or memory block pointed by pointer is destroyed, and the delete operator has void return type does not return a value.
+3. Are the node addresses adjacent to each other in memory in each of the files or not?
+No, they are not.
+4. Why would the addresses be adjacent if they are, or why would they not be adjacent if they are not?
+Because a linked list consists of items called “Nodes” which contain two parts. The first part stores the actual data and the second part has a pointer that points to the next node. This structure is usually called “Singly linked list”.
